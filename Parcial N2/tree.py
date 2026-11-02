@@ -288,7 +288,7 @@ class BinaryTree():
 #     def __str__(self):
 #         return f"{self.ape} {self.nom} {self.dni}"
 
-arbol = BinaryTree()
+#arbol = BinaryTree()
 # arbol_ape = BinaryTree()
 
 # p1 = Persona('Pepito', 'Gonzalez', 23)
@@ -311,8 +311,8 @@ arbol = BinaryTree()
 # arbol.insert_node('F')
 # arbol.insert_node('P')
 # arbol.insert_node('R')
-for i in range (1, 13):
-    arbol.insert_node(i)
+#for i in range (1, 13):
+  #  arbol.insert_node(i)
 
 # arbol.inorden()
 # print()
@@ -323,11 +323,11 @@ for i in range (1, 13):
 
 # print(arbol.root.right.left.value)
 
-arbol.delete_node(12)
-arbol.delete_node(11)
-arbol.delete_node(9)
+#arbol.delete_node(12)
+#arbol.delete_node(11)
+#arbol.delete_node(9)
 
-arbol.preorden()
+#arbol.preorden()
 
 
             
